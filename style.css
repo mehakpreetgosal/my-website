@@ -1,0 +1,167 @@
+body{
+
+    background-image: url("https://i.pinimg.com/474x/04/ba/a7/04baa75e20859fa6613ea0addf183ca6.jpg?nii=t");
+    align-items: center;
+    justify-content: center;
+    
+    font-family: Arial, sans-serif;
+
+/* header */
+header{
+    background-color:saddlebrown;
+    padding: 5px;
+    margin-bottom: 30px;
+
+}    
+
+/* Main container */
+.main-box {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+
+    background-image: url("https://template.canva.com/EAFM1BLa66Q/1/0/450w-tYAHo0CrUa8.jpg");
+    
+    backdrop-filter: blur(10px);
+
+    box-align: center;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.upload-section {
+    margin-bottom: 40px;
+}
+
+.upload-section input {
+    padding: 10px;
+}
+
+.upload-section button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    background: #4CAF50;
+    color: white;
+    font-size: 16px;
+}
+
+.upload-section button:hover {
+    background: #45a049;
+}
+
+.results h2 {
+    margin-bottom: 20px;
+}
+
+/* Information cards */
+.info-grid {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+    gap: 15px;
+}
+
+.info-card {
+    background: rgba(255,255,255,0.12);
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    backdrop-filter: blur(5px);
+}
+
+.info-card h3 {
+    margin-top: 0;
+    color: #90ee90;
+}
+
+.info-card p {
+    margin-bottom: 0;
+}
+    head{
+        title{
+            color: white;
+            font-family: Verdana;
+        }
+    }
+    
+.info-section{
+    width: 80%;
+    max-width: 1000px;
+    max-height: 5000px;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 30px;
+    background-image: url("https://template.canva.com/EAFM1BLa66Q/1/0/450w-tYAHo0CrUa8.jpg");
+    
+    backdrop-filter: blur(10px);
+
+    box-align: center;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.information{
+    backdrop-filter: blur(5px);
+    
+    padding: 20px;
+
+    margin-top: 30px;
+    h3{
+        color:#45a049;
+    }
+}
+
+.Resources{
+    backdrop-filter: blur(5px);
+    
+    padding: 20px;
+
+    margin-top: 30px;
+     h3{
+        color:#45a049;
+    }
+}
+
+footer{
+        p{
+            color: white;
+        }
+        border: 4px solid lightgreen;
+        border-radius: 10px;
+        margin-top: 500px;
+        text-align: center;
+        padding: 15px;
+        margin-bottom: 20px;
+        background-image: url("https://i.pinimg.com/236x/54/ee/41/54ee41f1b89de35e3273f6331314362a.jpg");
+    }
+}
+
+button{
+    padding:10px;
+}
